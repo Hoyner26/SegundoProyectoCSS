@@ -1,0 +1,27 @@
+.centrado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Espacio entre las galerías */
+}
+
+.galeria {
+    margin: 5px;
+    border: 1px solid rgb(0, 81, 255);
+    max-width: 400px;
+    flex: 1 1 calc(50% - 20px); /* Cada galería ocupa 50% del ancho del contenedor, menos el margen */
+    box-sizing: border-box; /* Incluye el padding y borde en el ancho total */
+}
+
+div.galeria img {
+    width: 100%;
+    height: 100%; /* Mantiene la proporción de la imagen */
+}
+.center{
+    text-align: center;
+}
+
+a:hover {
+    background-color:#7ab8ff ;
+
+}

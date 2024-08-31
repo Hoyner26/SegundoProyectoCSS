@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico?v=2" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/contacto.css">
+    <title>EN BUSCA DE SENTIDO</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <h1>El hombre en busca de sentido.</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Biografía del autor</i>
+                <li><a href="resumen.html">Resumen del libro</a></li>
+                <li><a href="frases.html">Frases destacadas</a></li>
+                <li><a href="recursos.html">Recursos adicionales</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <h2><em> "Contáctanos: Estamos Aquí para Ayudarte"</em></h2>
+    <hr>
+
+    <div class="contenedor">
+        <form>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribí aquí tu nombre" required minlength="3">
+            <label for="mail">Email: </label>
+            <input type="email" id="mail" name="mail" placeholder="Escribí aquí tu mail" required>
+            <label for="pais">País: </label>
+            <select name="pais" id="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Perú">Perú</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="España">España</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Ecuaador">Ecuaador</option>
+            </select>
+            <label for="comentario">Comentario: </label>
+            <textarea name="comentario" id="comentario" placeholder="Escribí aquí tu comentario"></textarea>
+
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+
+
+    <footer class="footer">
+        <small>Derechos reservados &copy; 2024
+    </footer>
+
+</body>
+
+</html>
